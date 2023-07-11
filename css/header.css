@@ -44,7 +44,7 @@
     position: fixed;
     top: .5em;
     left: -400px;
-    width: 90%;
+    width: 50%;
     height: 100%;
     background-color: #aa7804;
     transition: left 0.3s ease;
@@ -173,7 +173,11 @@ p {
 
     /* s */
     .containerNav__navegacao--telaGrande {
-        margin-left: 20px;
+        margin-left: 30px;
+    }
+    .containerNav__lista--telaGrande a:hover{
+        border-bottom: dotted;
+        color: aliceblue;
     }
 }
 
