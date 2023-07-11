@@ -1,0 +1,13 @@
+.container__benefecios{
+ margin: 20px;
+ text-align: center;
+ /* background-image: url('../img/Rectangle\ 22.png');
+ background-repeat: no-repeat;
+ background-position: right right;
+ background-size: 0%;
+ border-radius: 80%; */
+}
+.container__benefecios{
+    font-family: var(--font2);
+
+}

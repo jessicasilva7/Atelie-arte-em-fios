@@ -1,0 +1,28 @@
+@import url('./header.css');
+@import url('./section-destaque.css');
+@import url('./section-container-card.css');
+@import url('./container-beneficios.css');
+@import url('./section-catalogo.css');
+@import url('./section-SobreMim.css');
+@import url('./section-contato.css');
+@import url('./footer.css');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+:root{
+    --font1:'Sora', sans-serif;
+    --font2:'Roboto', sans-serif;
+
+}
+P, a{
+ font-family: var(--font2);
+}
+h1, h2, h3, h4, h5{
+   font-family: var(--font1);
+}

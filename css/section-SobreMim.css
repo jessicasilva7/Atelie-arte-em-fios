@@ -1,0 +1,35 @@
+
+.container_sobre_mim{
+    
+    background-image: url('../img/Rectangle\ 22.png');
+border-radius: 80%;
+box-shadow: 0 4px 6px rgba(0, 0, 3, 0.4);
+margin-left: 20px;
+
+
+}
+.container_sobre_mim h2{
+font-family: var(--font2);
+margin: 40px 0 0 20%;
+
+}
+
+.sobre_mim{
+    margin: 20px;
+    column-count: 2;
+}
+ 
+
+.sobre_mim--img img{
+width: 100%;
+border-radius: 3%;
+box-shadow: 0 4px 6px rgba(62, 62, 71, 0.4);
+
+}
+
+@media screen and (min-width: 768px) {
+    .sobre_mim--img img{
+        width: 60%;
+        margin-top: -20%;
+    }
+}

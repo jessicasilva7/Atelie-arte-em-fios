@@ -1,0 +1,12 @@
+.footer{
+    background-color: #f2a900;
+}
+.footer__img img{
+    width: 100%;
+    height: 8em;
+
+
+}
+.footer__endereco {
+    margin:0 50px 10px 40px;
+}

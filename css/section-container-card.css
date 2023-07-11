@@ -1,0 +1,129 @@
+.container-cards {
+    position: relative;
+    overflow-x: hidden;
+    background-image: url('../img/img-fundo1.png');
+    background-size: cover;
+
+}
+
+.container-cards h2 {
+    justify-items: legacy;
+}
+
+.container-cards-carrosel {
+    display: flex;
+    gap: 20px;
+    transition: transform 0.3s ease;
+    justify-content: flex-start;
+    margin-left: 80px;
+}
+
+.container-cards--texto,
+h3,
+p {
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+@keyframes swing {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(-10px);
+    }
+}
+
+.svg-icon {
+    animation: swing 1.5s infinite ease-in-out;
+}
+
+
+
+.container-cards--img {
+    width: 15em;
+    height: 7em;
+    border-radius: 35px;
+}
+
+.container-cards--card {
+    padding: 30px;
+}
+
+.container-cards--texto a {
+    text-decoration: none;
+    color: #fff;
+    padding: 7px;
+    background-color: #974915;
+    margin-top: 80px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.fazerPedido:hover {
+    background-color: #fde5e5;
+    border: 2px solid #dda884;
+    color: #0e0d0c;
+    font-weight: bold;
+}
+
+button {
+    background-color: none;
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: #f1f1f100;
+    border: none;
+    cursor: pointer;
+}
+
+.next-btn {
+    right: 0;
+}
+
+.container__destaque::after {
+    top: 0;
+    background-image: url('caminho-para-a-imagem-da-curva-superior.png');
+    background-repeat: repeat-x;
+}
+
+.container__destaque h2 {
+    font-family: var(--font2);
+}
+
+.container__destaque,
+p {
+    text-align: justify;
+    font-family: var(--font1);
+}
+
+
+.produto {
+    margin: 20px;
+    
+}
+
+/* *maior ou igual */
+@media screen and (max-width: 768px) {
+    .catalago__sidebar {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width: 767) {
+    /* catalogo__produtos {
+        justify-content: space-around;
+        margin: 20px;
+    }*/
+}

@@ -1,0 +1,27 @@
+.container__contato h3{
+    font-family: var(--font2);
+}
+.container__contato--sociais{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+
+}
+.contato{
+    margin-top: -30px;
+}
+.container__contato--sociais a{
+    text-decoration: none;
+    color: black;
+    font-family: var(--font1);
+    padding: 2px;
+    transition: 0.6s ease-out;
+  
+}
+.container__contato--sociais a:hover{
+    transition: transform 0.6s ease-out;
+    transform: translateY(-10px);
+}
+.container__contato--sociais img{
+    padding: 2px;
+}
